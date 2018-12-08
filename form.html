@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<title>DONATE LIFE </title>
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+</head>
+<body id="top">
+<div class="wrapper row1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="donate.html"><img src="a2.jpg" style="width:900px; height:240px;"></a></h1>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper row2">
+  <div class="rnd">
+   
+    <div id="topnav">
+      <ul>
+        <li ><a href="donate.html">Home</a></li>
+        <li><a href="donation.html">Movies</a></li>
+        
+        <li class="active"><a href="form.html">Sign Up</a></li>
+        
+        <li><a href="aboutus.html">About us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+   <style type="text/css">
+   
+   fieldset
+        {
+        background-color: #FFFFED;
+         border-radius: 10px;
+         border: 3px solid rgb(22,0,57);
+         width: 700px;
+           margin:auto;
+            border-color : "light gray";
+          
+            padding-top : 50px;
+            padding-bottom : 50px;
+            padding-left : 50px;
+            padding-right : 50px;
+            font-family: verdana, arial, helvetica, sans-serif; 
+            color: #8D9296;
+        }
+ </style>
+</head>
+<title>Donate Life</title>
+<body>
+
+
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x==null || x=="") {
+        alert("First name must be filled out");
+        return false;
+	}
+	var y = document.forms["myForm"]["Email"].value;
+	if (y==null || y=="") {
+        alert("Email must be filled out");
+        return false;
+	
+    }
+}
+</script>
+
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="css/a.css">
+  
+</head>
+<body>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["uname"].value;
+    if (x==null || x=="") {
+        alert("User name must be filled out");
+        return false;
+	}
+	var y = document.forms["myForm"]["email"].value;
+    var atpos = y.indexOf("@");
+    var dotpos = y.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=y.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+	
+	var p1= document.forms["myForm"]["password"].value;
+	var p2= document.forms["myForm"]["password1"].value;
+	if(p1!=p2){
+	
+     alert("Passwords do not match");
+	 return false;
+    }
+}
+</script>
+  <section class="container">
+    <div class="login">
+      <h1>Sign Up</h1>
+      <form name="myForm" method="post" onsubmit="return validateForm()" action="1.php">
+	  <table>
+	  <tr>
+	  
+       <td>Username         :</td><td> <p style="display:inline"><input type="text" name="uname" value="" placeholder="Username"></p></td>
+	   </tr>
+	   
+	   <tr>
+	   
+	   <td>Email            :</td><td><input type="text" name="email" value="" placeholder="Email"></td>
+	   </tr>
+	   
+	   <tr>
+	   <td>Date of Birth    :</td><td><input type="date" name="dob" value="" placeholder="yyyy/mm/dd"></td>
+	   </tr>
+	   
+	   
+	   <tr>
+       <td>Password         :</td><td><input type="password" name="password" value="" placeholder="Password"></td>
+	   </tr>
+	   
+	   <tr>
+	   <td>Confirm password :</td><td><input type="password" name="password1" value="" placeholder="Reenter Password"></td>
+	   </tr>
+        
+       <tr><td><input type="submit" name="commit" value="Sign up"></td></tr>
+	   </table>
+      </form>
+    </div>
+
+
+ <div id="twitter" class="clear" style="position:relative; left:16%; height:150px;">
+        <div class="fl_left"><a href="#"></a></div>
+        <div class="fl_right">
+	
+<center><br><br><br><br>					
+
+<p>Shreya Sherugar&nbsp;&nbsp;|&nbsp;&nbsp;shreyasherugar06@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;9920516427&nbsp;&nbsp;</p>
+					<p>Akshay Wagh&nbsp;&nbsp;|&nbsp;&nbsp;akshaywagh@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;9920516427&nbsp;&nbsp;</p>
+					<p>Shital Chaudhari&nbsp;&nbsp;|&nbsp;&nbsp;shitalchaudhari@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;9920516427&nbsp;&nbsp;</p>
+
+<p>Akash Indani&nbsp;&nbsp;|&nbsp;&nbsp;akashindani@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;9920516427&nbsp;&nbsp;</p>
+
+      </div>
+     
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
